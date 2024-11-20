@@ -54,27 +54,27 @@ def on_equals_button():
 
 
 def create_buttons():
-   buttons = {"mod":ct.CTkButton(window_frame,hover_color="#70c5e6",corner_radius=10,width=100,font=button_font,text="%",command=lambda: on_button("%")),
-              "CE":ct.CTkButton(window_frame,hover_color="#70c5e6",text="CE",width=100,corner_radius=10,font=button_font,command=on_clear_button),
-           "C":ct.CTkButton(window_frame,hover_color="#70c5e6",text="C",width=100,corner_radius=10,font=button_font,command=on_clear_button),
-              "divide":ct.CTkButton(window_frame,hover_color="#70c5e6",text="÷",corner_radius=10,width=100,font=button_font,command=lambda: on_button("/")),
-           "7":ct.CTkButton(window_frame,hover_color="#70c5e6",text="7",width=100,corner_radius=10,font=button_font,command=lambda: on_button(7)),
-              "8":ct.CTkButton(window_frame,hover_color="#70c5e6",text="8",corner_radius=10,width=100,font=button_font,command=lambda: on_button(8)),
-           "9":ct.CTkButton(window_frame,hover_color="#70c5e6",text="9",width=100,corner_radius=10,font=button_font,command=lambda: on_button(9)),
-              "multiply":ct.CTkButton(window_frame,hover_color="#70c5e6",text="x",corner_radius=10,width=100,font=button_font,command=lambda: on_button("*")),
-           "4":ct.CTkButton(window_frame,hover_color="#70c5e6",text="4",width=100,corner_radius=10,font=button_font,command=lambda: on_button(4)),
-              "5":ct.CTkButton(window_frame,hover_color="#70c5e6",text="5",corner_radius=10,width=100,font=button_font,command=lambda: on_button(5)),
-           "6":ct.CTkButton(window_frame,hover_color="#70c5e6",text="6",width=100,corner_radius=10,font=button_font,command=lambda: on_button(6)),
-              "subtract":ct.CTkButton(window_frame,hover_color="#70c5e6",text="-",corner_radius=10,width=100,font=button_font,command=lambda: on_button("-")),
-           "1":ct.CTkButton(window_frame,hover_color="#70c5e6",text="1",width=100,corner_radius=10,font=button_font,command=lambda: on_button(1)),
-              "2":ct.CTkButton(window_frame,hover_color="#70c5e6",text="2",corner_radius=10,width=100,font=button_font,command=lambda: on_button(2)),
-           "3":ct.CTkButton(window_frame,hover_color="#70c5e6",text="3",width=100,corner_radius=10,font=button_font,command=lambda: on_button(3)),
-              "plus":ct.CTkButton(window_frame,hover_color="#70c5e6",text="+",corner_radius=10,width=100,font=button_font,command=lambda: on_button("+")),
-           "+/-":ct.CTkButton(window_frame,hover_color="#70c5e6",text="+/-",corner_radius=10,width=100,font=button_font,command=on_negate),
-              "0":ct.CTkButton(window_frame,hover_color="#70c5e6",text="0",corner_radius=10,width=100,font=button_font,command=lambda: on_button(0)),
-           ".":ct.CTkButton(window_frame,hover_color="#70c5e6",text=".",corner_radius=10,width=100,font=button_font,command=lambda: on_button("."))
+     buttons = {"mod":ct.CTkButton(window_frame,hover_color="#70c5e6",width=100,font=button_font,text="%",command=lambda: on_button("%")),
+              "CE":ct.CTkButton(window_frame,hover_color="#70c5e6",text="CE",width=100,font=button_font,command=on_clear_button),
+           "C":ct.CTkButton(window_frame,hover_color="#70c5e6",text="C",width=100,font=button_font,command=on_clear_button),
+              "divide":ct.CTkButton(window_frame,hover_color="#70c5e6",text="÷",width=100,font=button_font,command=lambda: on_button("/")),
+           "7":ct.CTkButton(window_frame,hover_color="#70c5e6",text="7",width=100,font=button_font,command=lambda: on_button(7)),
+              "8":ct.CTkButton(window_frame,hover_color="#70c5e6",text="8",width=100,font=button_font,command=lambda: on_button(8)),
+           "9":ct.CTkButton(window_frame,hover_color="#70c5e6",text="9",width=100,font=button_font,command=lambda: on_button(9)),
+              "multiply":ct.CTkButton(window_frame,hover_color="#70c5e6",text="x",width=100,font=button_font,command=lambda: on_button("*")),
+           "4":ct.CTkButton(window_frame,hover_color="#70c5e6",text="4",width=100,font=button_font,command=lambda: on_button(4)),
+              "5":ct.CTkButton(window_frame,hover_color="#70c5e6",text="5",width=100,font=button_font,command=lambda: on_button(5)),
+           "6":ct.CTkButton(window_frame,hover_color="#70c5e6",text="6",width=100,font=button_font,command=lambda: on_button(6)),
+              "subtract":ct.CTkButton(window_frame,hover_color="#70c5e6",text="-",width=100,font=button_font,command=lambda: on_button("-")),
+           "1":ct.CTkButton(window_frame,hover_color="#70c5e6",text="1",width=100,font=button_font,command=lambda: on_button(1)),
+              "2":ct.CTkButton(window_frame,hover_color="#70c5e6",text="2",width=100,font=button_font,command=lambda: on_button(2)),
+           "3":ct.CTkButton(window_frame,hover_color="#70c5e6",text="3",width=100,font=button_font,command=lambda: on_button(3)),
+              "plus":ct.CTkButton(window_frame,hover_color="#70c5e6",text="+",width=100,font=button_font,command=lambda: on_button("+")),
+           "+/-":ct.CTkButton(window_frame,hover_color="#70c5e6",text="+/-",width=100,font=button_font,command=on_negate),
+              "0":ct.CTkButton(window_frame,hover_color="#70c5e6",text="0",width=100,font=button_font,command=lambda: on_button(0)),
+           ".":ct.CTkButton(window_frame,hover_color="#70c5e6",text=".",width=100,font=button_font,command=lambda: on_button("."))
               ,"equals":ct.CTkButton(window_frame,hover_color="#70c5e6",text="=",corner_radius=10,width=100,font=button_font,command=on_equals_button)}
-   return buttons
+     return buttons
 
 def setup_buttons():
     buttons = create_buttons()
