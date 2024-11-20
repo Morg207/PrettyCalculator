@@ -13,7 +13,7 @@ def on_button(input):
         result_text_l = list(result_text)
         result_text_l = result_text_l[1:]
         result_text = "".join(result_text_l)
-        button_pressed = True
+    button_pressed = True
     result.set(result_text)
 
 def on_clear_button():
